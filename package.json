@@ -4,6 +4,7 @@
   "main": "index.js",
   "module": "index.js",
   "repository": "git@github.com:unix/rehype-join-line.git",
+  "homepage": "https://github.com/unix/rehype-join-line#readme",
   "author": "unix <unix.bio@gmail.com>",
   "license": "MIT",
   "scripts": {

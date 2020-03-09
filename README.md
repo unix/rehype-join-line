@@ -43,7 +43,7 @@ Run `npm install rehype-join-line`.
 
 ```js
 const rehype = require('rehype');
-const rehypeJoinLine = require('rehype-join-lin');
+const rehypeJoinLine = require('rehype-join-line');
 
 rehype()
   .use(rehypeJoinLine)
@@ -57,7 +57,7 @@ rehype()
 const withMDX = require('@next/mdx')({
   extension: /\.(md|mdx)?$/,
   options: {
-    rehypePlugins: [require('rehype-join-lin')],
+    rehypePlugins: [require('rehype-join-line')],
   },
 })
 
